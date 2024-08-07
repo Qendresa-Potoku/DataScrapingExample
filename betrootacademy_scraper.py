@@ -35,8 +35,8 @@ def main():
         df = pd.DataFrame(trainings_list)
 
         # Write the DataFrame to an Excel file
-        df.to_excel('trainings_data.xlsx', index=False)
-        print("Data has been written to trainings_data.xlsx")
+        df.to_excel('betrootacademy_data.xlsx', index=False)
+        print("Data has been written to betrootacademy_data.xlsx")
 
 if __name__=='__main__':
     main()
